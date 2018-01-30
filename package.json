@@ -4,19 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jp-caillet/caillet-my-multi.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "caillet jp",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jp-caillet/caillet-my-multi/issues"
   },
   "homepage": "https://github.com/Jp-caillet/caillet-my-multi#readme",
   "devDependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
